@@ -20,5 +20,17 @@ public abstract class Persona {
 				+ " " + "Peso:" + this.peso);
 
 	}
+     
+
+     public String checaAumento(double sueldo) {
+    	 String aumento;
+    	 if(sueldo <= 10000) {
+    		 aumento = "Si aplica Aumento";
+    	 }else {
+    		 aumento = "No aplica Aumento";
+    	 }
+    	 
+    	 return aumento;
+     }
 
 }

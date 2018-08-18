@@ -14,8 +14,9 @@ public class Profesor extends Persona{
 	public void imprimeDatos() {
 		super.imprimeDatos();
 		System.out.println("Folio: "+this.folio+" "+"Sueldo: "+this.sueldo);
+		System.out.println(this.checaAumento(this.sueldo));
 		System.out.println("------------------------------------------------");
 	}
 	
-
+	
 }
