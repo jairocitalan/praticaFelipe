@@ -1,5 +1,6 @@
 package com.java.mx.practica1;
 
+import com.java.mx.modelo.Administrativo;
 import com.java.mx.modelo.Alumno;
 import com.java.mx.modelo.Profesor;
 
@@ -17,5 +18,8 @@ public class App
     	
     	Alumno a1 = new Alumno("Jairo Alberto", "Citalán Chavéz", 25, 78.567, "B110031");
     	a1.imprimeDatos();
+    	
+    	Administrativo ad1= new Administrativo("yoni", "reynosa velazquez",26, 60, "ad123 ", "secretaria");
+    	ad1.imprimeDatos();
     }
 }
